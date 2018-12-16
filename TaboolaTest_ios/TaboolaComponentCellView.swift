@@ -9,10 +9,9 @@
 import UIKit
 import TaboolaSDK
 
-class Component: UITableViewCell {
+class TaboolaComponentCellView: UITableViewCell {
 
     @IBOutlet weak var taboolaView: TaboolaView!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

@@ -10,6 +10,7 @@ import UIKit
 
 class ComponentCellView: UITableViewCell {
 
+    @IBOutlet weak var myLbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
